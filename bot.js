@@ -13,7 +13,7 @@ bot.on("ready", () => {
 });
 
 bot.on("guildMemberAdd", member => {
-    bot.guilds.get(member.guild.id).members.get(member.id).sendMessage("Seja Bem-vindo a DragonStore! :loudspeaker: "+member+"\n\n**Quem somos nós?**\n\nSomos uma loja de minecraft, com o intuito de vender as contas e capas da optifine.\n\n**Produtos e Preços**\n\nMinecraft Full Acesso: R$14,99\nCapa da Optifine: R$20\nConta Alternativa: R$1,50\n\n**Formas de pagamento**\n\nAceitamos apenas MercadoPago.\n\n`PARA COMPRAR QUALQUER PRODUTO ACESSE:` dragoncss.com\nhttps://discord.gg/kkKAPKV");
+    bot.guilds.get(member.guild.id).members.get(member.id).sendMessage("Seja Bem-vindo a DragonStore! :loudspeaker: "+member+"\n\n**Quem somos nós?**\n\nSomos uma loja de minecraft, com o intuito de vender as contas e capas da optifine.\n\n**Produtos e Preços**\n\nMinecraft Full Acesso: R$9,50\nCapa da Optifine: R$17,99\nConta Alternativa: R$0,50\n\n**Formas de pagamento**\n\nAceitamos apenas MercadoPago.\n\n`PARA COMPRAR QUALQUER PRODUTO ACESSE:` dragoncss.com\nhttps://discord.gg/kkKAPKV");
 });
 
 bot.on("message", async message => {
